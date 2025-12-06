@@ -7,14 +7,16 @@ import Section1 from './components/Section1'
 import TabForm from './components/TabForm'
 import Account from './components/Account'
 import ForgotPassword from './components/ForgotPassword'
-import Homepage from "./components/Homepage";
+import Sec1 from "./components/Sec1";
+import FeaturesSection from "./components/FeaturesSection";
 function App() {
  
   return (
 <>
 {/* <Section1/>
       <TabForm/> */}
-      <Homepage/>
+      <Sec1/>
+      <FeaturesSection/>
     {/* <Routes>
       
         <Route path="/" element={<Account />} />
